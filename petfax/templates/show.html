@@ -8,12 +8,13 @@
 </head>
 <body>
     <h1>Welcome to PetFax</h1>
-    {% for pet in pets %}
+    <div class="showContainer">
         <h2>{{ pet.pet_name }}</h2>
-        <div>
-        <a href="/show/{{ pet.pet_id }}">More info on {{pet.pet_name}}</a>
+        <img class="petImageDetail" src="{{ pet.pet_photo }}" alt="Photo of pet"/>
+        <div class="petFactsContainer"> 
+            <h2 class="petFacts"> Fun Pet Fact: {{ pet.pet_fact }} </h2>
         </div>
-        <img src="{{ pet.pet_photo }}" alt="Photo of pet"/>
-    {% endfor %}
+        <a href="/pets">Go Back</a>
+    </div>
 </body>
 </html>
