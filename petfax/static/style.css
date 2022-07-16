@@ -1,28 +1,10 @@
-.petImageDetail{
-    width:40%;
+.indeximg{
+    width: 40%;
     border: 2px;
     border-style: solid;
     border-radius: 5px;
-}
-
-.indeximage{
-    width:50%;
-    border: 2px;
-    border-style: solid;
-    border-radius: 5px;
-}
-
-.form-container{
-    background-color: antiquewhite;
 }
 
 body{
-    background-color: antiquewhite;
-}
-
-img{
-    width:40%;
-    border: 2px;
-    border-style: solid;
-    border-radius: 5px;
+    background: antiquewhite;
 }
